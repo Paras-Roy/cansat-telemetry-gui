@@ -9,6 +9,9 @@
 #include <QtCore>
 #include <QTimer>
 #include <QEventLoop>
+#include <QtAlgorithms>
+#include <QtMath>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -37,7 +40,7 @@ private:
     void startExec();
     void setupPlots();
     void updateValues(QString);
-    void updatePlots(QString);
+    void updatePlots();
     void addDelay();
 };
 #endif // MAINWINDOW_H
