@@ -3,7 +3,7 @@ GUI built in Qt (C++) for CANSAT 2023
 **Team KALPANA**
 NSUT
 
-![UI photo](home.jpeg "cangui").
+![UI photo](home.jpeg "cangui")
 
 ## Telemetry
 Upon power up, the CanSat shall collect the required telemetry at a one (1) Hz sample rate
